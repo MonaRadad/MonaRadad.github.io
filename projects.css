@@ -1,0 +1,104 @@
+/* Reset */
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+/* Main Styling */
+html,body {
+    font-family:  'Times New Roman', Times, serif;
+    line-height: 1.7em;
+    background-color: #141A2C;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3 {
+    padding-bottom: 20px;
+  }
+
+  
+  
+  p {
+    margin: 10px 0;
+  }
+/* Utility Classes */
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+    text-align: right
+  }
+  #prj{
+    text-align: center;
+    color: #EA5455;
+  }
+  /* Navbar */
+#navbar {
+    background: #17202A ;
+    color: #fff;
+    overflow: auto;
+  }
+  
+  #navbar a {
+    color: #fff;
+  }
+  
+  #navbar .logo {
+    float: left;
+    padding-top: 20px;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    float: right;
+  }
+  
+  #navbar ul li {
+    float: right;
+  }
+  
+  #navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #navbar ul li a:hover, 
+  #navbar ul li a.current {
+    background: #17202A ;
+    color: #fff;
+  }
+
+
+  #projects-info .container p{
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 2px 2px 5px #EA5455;
+    margin-left: 20px;
+  }
+  
+  table, th, td {
+
+    border: 1px solid #EA5455;
+    
+    }
+    th, td {
+
+        padding: 10px;
+        
+    }
+    th {
+
+        background-color: #e49090;
+        font-size: 20px;    
+    }
+    td{
+        background-color: #17202A;
+        color: #fff;
+    }

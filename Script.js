@@ -4,7 +4,7 @@ function projectPage(){
     window.location = "projects.html";
 }
 
-function linkedin(){
+function publicationPage(){
     
-    var win = window.open("https://www.linkedin.com/in/mona-radad");
+    window.location = "publications.html";
 }

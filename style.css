@@ -17,13 +17,29 @@ html,body {
     text-decoration: none;
   }
   
+  
   h1, h2, h3 {
     padding-bottom: 20px;
   }
+
+  
   
   p {
     margin: 10px 0;
   }
+  /*publications*/
+  #pub{
+    text-align: center;
+    color: #EA5455;
+  }
+  #Publications-info .container p{
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 2px 2px 5px #EA5455;
+    margin-left: 20px;
+  }
+
 /* Utility Classes */
 .container {
     margin: auto;
@@ -89,7 +105,7 @@ html,body {
    position: relative;display: flex;
    justify-content: center;align-items: center;
    overflow: hidden;cursor: pointer;
-   width: 194px;height: 30px;
+   width: 264px;height: 30px;
    background-color: #eeeeed;border-radius: 80px;
    padding: 0 18px;will-change: transform;
    transition: all 0.2s ease-in-out;
@@ -101,7 +117,7 @@ html,body {
    font-family: Vazir;
    position: absolute;
    z-index: 99;
-   width: 240px;height: 72px;
+   width: 264px;height: 72px;
    border-radius: 80px;font-size: 20px;
    text-align: center;line-height: 70px;
    color: #EA5455;
@@ -115,8 +131,9 @@ html,body {
    display: flex;
    justify-content: space-around;
    align-items: center;
-   width: 194px; height: 70px;
+   width: 264px; height: 70px;
    border-radius: 80px;
+   
  }
 
  .container1 i:nth-of-type(1){
@@ -146,6 +163,13 @@ html,body {
     justify-content: center;
     align-items: center;
     color: #EA5455;
+}
+
+.header-bar {
+  margin: 25px 0 60px 0;
+  width: 70px;
+  height: 10px;
+  background: var(--header-color);
 }
   .btn:hover {
     background: rgb(175, 173, 180);
@@ -188,8 +212,7 @@ html,body {
   .box i {
     margin-bottom: 10px;
   }
-
-
+  
 
   /* About Info */
   #about-info .container{
@@ -314,8 +337,8 @@ html,body {
     line-height: 1.7em;
   }
   #showcase .showcase-content img{
-    height: 320px;
-    width: 220px;
+    height: 340px;
+    width: 196px;
     float: right;
     border-radius: 50px;
     
