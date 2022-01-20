@@ -82,7 +82,12 @@ html,body {
     text-shadow: 2px 2px 5px #EA5455;
     margin-left: 20px;
   }
-  
+  #projects-info .container a{
+    color:#f54e30 ;
+    text-decoration: underline;
+    text-shadow: none;
+    
+  }
   table, th, td {
 
     border: 1px solid #EA5455;
